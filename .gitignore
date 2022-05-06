@@ -1,0 +1,61 @@
+# Python 3
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.cache/
+.coverage*
+cov_html/
+cov.xml
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+app/setEnv.sh
+.env
+env/
+ENV/
+env.bak/
+venv/
+.venv/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Pipenv
+Pipfile.lock
+
+# JS
+node_modules/
+package-lock.json
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Django stuff:
+*.log
+.static_storage/
+.media/
+local_settings.py
+app/media/
+app/static/
+app/opt/
+
+# Etc
+coverage
+myenv.sh
+.myenv
+myenv.fish
+app/backend/settings_debug\.py
+app/.editorconfig
+docker/build/
+requirements.txt
+.idea/
